@@ -12,12 +12,12 @@ body {
 }
 
 .border-round {
-  border-radius: 20px;
+  border-radius: 1.25rem;
 }
 
 .line {
-  margin: 32px 0 24px;
-  padding: 1px 0;
+  margin: 2rem 0 1.5rem;
+  padding: 0.063rem 0;
   background-color: #e9ecef;
 }
 
@@ -31,7 +31,7 @@ td {
 
 h2 {
   color: #a8522f;
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
 }
 
@@ -43,13 +43,13 @@ h2 {
 .ingredients-ul li,
 .preparation-ul li,
 .instructions-ol li {
-  padding-left: 16px;
+  padding-left: 1rem;
 }
 
 .ingredients-ul li:not(:first-child),
 .preparation-ul li,
 .instructions-ol li:not(:first-child) {
-  margin-top: 12px;
+  margin-top: 0.75rem;
 }
 
 .preparation-ul li,
@@ -63,19 +63,19 @@ h2 {
 .instructions-ol,
 .nutrition-cont p,
 .nutrition-table {
-  margin-top: 24px;
+  margin-top: 1.5rem;
 }
 
 /* TOP SECTION */
 
 .container {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 500;
-  max-width: 900px;
-  margin: 180px auto;
-  padding: 50px;
+  max-width: 56.25rem;
+  margin: 11.25rem auto;
+  padding: 3.125rem;
   background-color: white;
-  box-shadow: 0 0 16px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.06);
 
   display: flex;
   flex-direction: column;
@@ -83,25 +83,25 @@ h2 {
 
 .recipe-img {
   height: auto;
-  max-width: inherit;
+  max-width: 100%;
 }
 
 .title {
-  font-size: 52px;
+  font-size: 3.25rem;
   font-weight: 700;
   color: #343a40;
 
-  margin-top: 36px;
+  margin-top: 2.25rem;
 }
 
 .description {
-  margin: 24px 0px 28px;
+  margin: 1.5rem 0 1.75rem;
 }
 
 /* PREPARATION SECTION */
 
 .preparation-cont {
-  padding: 28px 0;
+  padding: 1.75rem 0;
   color: #a61e4d;
 
   background-color: #fff0f6;
@@ -109,11 +109,11 @@ h2 {
 
 .preparation-title {
   color: #a61e4d;
-  padding-left: 32px;
+  padding-left: 2rem;
 }
 
 .preparation-ul {
-  padding: 0 56px;
+  padding: 0 3.5rem;
 }
 
 .preparation-ul li {
@@ -123,12 +123,12 @@ h2 {
 /* INGREDIENTS SECTION */
 
 .ingredients-cont {
-  margin-top: 36px;
+  margin-top: 2.25rem;
 }
 
 .ingredients-ul,
 .instructions-ol {
-  padding: 0 24px;
+  padding: 0 1.5rem;
 }
 
 /* INSTRUCTIONS SECTION */
@@ -139,12 +139,11 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* max-width: inherit; */
 }
 
 td {
-  padding: 12px 24px;
-  border-bottom: 1px solid #e9ecef;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 0.063rem solid #e9ecef;
 }
 
 .no-line {
