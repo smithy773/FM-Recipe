@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+/* GENERAL */
+
+body {
+  background-color: #fff4e6;
+}
+
+.border-round {
+  border-radius: 20px;
+}
+
+.line {
+  margin: 32px 0 24px;
+  padding: 1px 0;
+  background-color: #e9ecef;
+}
+
+h3,
+p,
+li,
+th,
+td {
+  color: #495057;
+}
+
+h2 {
+  color: #a8522f;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h1,
+h2 {
+  font-family: "Fraunces", serif;
+}
+
+.ingredients-ul li,
+.preparation-ul li,
+.instructions-ol li {
+  padding-left: 16px;
+}
+
+.ingredients-ul li:not(:first-child),
+.preparation-ul li,
+.instructions-ol li:not(:first-child) {
+  margin-top: 12px;
+}
+
+.preparation-ul li,
+.ingredients-ul li,
+.instructions-ol li,
+.darkorange {
+  color: #a8522f;
+}
+
+.ingredients-ul,
+.instructions-ol,
+.nutrition-cont p,
+.nutrition-table {
+  margin-top: 24px;
+}
+
+/* TOP SECTION */
+
+.container {
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 900px;
+  margin: 180px auto;
+  padding: 50px;
+  background-color: white;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.06);
+
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-img {
+  height: auto;
+  max-width: inherit;
+}
+
+.title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #343a40;
+
+  margin-top: 36px;
+}
+
+.description {
+  margin: 24px 0px 28px;
+}
+
+/* PREPARATION SECTION */
+
+.preparation-cont {
+  padding: 28px 0;
+  color: #a61e4d;
+
+  background-color: #fff0f6;
+}
+
+.preparation-title {
+  color: #a61e4d;
+  padding-left: 32px;
+}
+
+.preparation-ul {
+  padding: 0 56px;
+}
+
+.preparation-ul li {
+  color: #a61e4d;
+}
+
+/* INGREDIENTS SECTION */
+
+.ingredients-cont {
+  margin-top: 36px;
+}
+
+.ingredients-ul,
+.instructions-ol {
+  padding: 0 24px;
+}
+
+/* INSTRUCTIONS SECTION */
+
+/* NUTRITION SECTION */
+
+.nutrition-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* max-width: inherit; */
+}
+
+td {
+  padding: 12px 24px;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.no-line {
+  border: none;
+}
