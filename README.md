@@ -8,7 +8,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - [Links](#links)
 - [Built with](#built-with)
 - [What I learned](#what-i-learned)
-- [Continued development](#continued-development)
 - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -29,15 +28,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - CSS
 - Flexbox
 - CSS Grid
-- Desktop-first approach, will update to a responsive design in the future
+- Desktop-first approach to the design, but website is still responsive.
 
 ### What I learned
 
-Learned to structure code better, keeping it easy to read and modify. Used general classes wherever possible, which made life easier when styling the website.
-
-### Continued development
-
-Should focus on applying proper responsive design, using JavaScript on websites, APIs.
+Learned to structure code better, keeping it easy to read and modify. Used general classes wherever possible, which made life easier when styling the website. Got good practice in responsive website design.
 
 ### Useful resources
 
