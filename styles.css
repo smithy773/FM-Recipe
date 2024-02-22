@@ -70,7 +70,7 @@ h2 {
 
 .container {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 400;
   max-width: 50vw;
   margin: 11.25rem auto;
   padding: 3.125rem;
@@ -88,7 +88,7 @@ h2 {
 
 .title {
   font-size: 3.25rem;
-  font-weight: 700;
+  font-weight: 600;
   color: #343a40;
 
   margin-top: 2.25rem;
@@ -97,6 +97,7 @@ h2 {
 .description {
   margin: 1.5rem 0 1.75rem;
   font-size: 1.125rem;
+  letter-spacing: 0.003rem;
 }
 
 /* PREPARATION SECTION */
@@ -125,6 +126,7 @@ h2 {
 
 .ingredients-cont {
   margin-top: 2.25rem;
+  letter-spacing: 0.003rem;
 }
 
 .ingredients-ul,
@@ -136,10 +138,14 @@ h2 {
 
 .instructions-ol {
   line-height: 1.4;
-  letter-spacing: 0.006rem;
+  letter-spacing: 0.003rem;
 }
 
 /* NUTRITION SECTION */
+
+.nutrition-cont {
+  letter-spacing: 0.003rem;
+}
 
 .nutrition-table {
   display: flex;
