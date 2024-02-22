@@ -19,7 +19,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Still working on it!]()
+- Solution URL: [Frontend Mentor Solution](https://www.frontendmentor.io/solutions/recipe-page-with-css-grid-media-queries-semantic-html-etc-UDkgeyZLZK)
 - Live Site URL: [GitHub Pages Live Site](https://smithy773.github.io/FM-Recipe/)
 
 ### Built with
